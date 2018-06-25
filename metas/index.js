@@ -13,4 +13,4 @@ const tables = [
   '_demarches_etapes'
 ]
 
-tables.forEach(name => build(spreadsheetId, name))
+tables.forEach(name => build(spreadsheetId, 'metas', name))
