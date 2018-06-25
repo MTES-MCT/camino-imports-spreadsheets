@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "metas": "node ./metas/index.js",
-    "metas-w": "onchange '**/*.js' -i -- npm run metas"
+    "metas-w": "onchange '**/*.js' -i -- npm run metas",
+    "substances": "node ./substances/index.js",
+    "substances-w": "onchange '**/*.js' -i -- npm run substances",
+    "build": "npm run metas && npm run substances"
   },
   "author": "",
   "license": "ISC",
