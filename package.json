@@ -8,7 +8,9 @@
     "metas-w": "onchange '**/*.js' -i -- npm run metas",
     "substances": "node ./substances/index.js",
     "substances-w": "onchange '**/*.js' -i -- npm run substances",
-    "build": "npm run metas && npm run substances"
+    "titres-m": "node ./titres/m.js",
+    "titres-m-w": "onchange '**/*.js' -i -- npm run titres-m",
+    "build": "npm run metas && npm run substances && npm run titres-m"
   },
   "author": "",
   "license": "ISC",
@@ -18,7 +20,7 @@
     "google-spreadsheet-to-json": "^1.0.0"
   },
   "devDependencies": {
-    "eslint": "^5.0.0",
+    "eslint": "^5.0.1",
     "eslint-config-prettier": "^2.9.0",
     "eslint-config-standard": "^12.0.0-alpha.0",
     "eslint-plugin-compat": "^2.4.0",

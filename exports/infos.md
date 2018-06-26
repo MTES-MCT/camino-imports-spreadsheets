@@ -1,3 +1,3 @@
 # exports
 
-Ce dossier contient les fichiers json exportés.
+Ce dossier contient les fichiers json.

@@ -10,7 +10,8 @@ const tables = [
   'demarches_statuts',
   'etapes',
   'etapes_statuts',
-  '_demarches_etapes'
+  '_demarches_etapes',
+  'emprises'
 ]
 
 tables.forEach(name => build(spreadsheetId, '', name))
