@@ -10,7 +10,11 @@
     "substances-w": "onchange '**/*.js' -i -- npm run substances",
     "titres-m": "node ./titres/m.js",
     "titres-m-w": "onchange '**/*.js' -i -- npm run titres-m",
-    "build": "npm run metas && npm run substances && npm run titres-m"
+    "titres-h": "node ./titres/h.js",
+    "titres-h-w": "onchange '**/*.js' -i -- npm run titres-h",
+    "repertoire": "node ./repertoire/index.js",
+    "repertoire-w": "onchange '**/*.js' -i -- npm run repertoire",
+    "build": "npm run metas && npm run substances && npm run repertoire && npm run titres-m && npm run titres-h"
   },
   "author": "",
   "license": "ISC",
