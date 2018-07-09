@@ -9,5 +9,5 @@ const cb = json =>
     }, {})
   )
 
-build(spreadsheetId, '', 'substances', cb)
-build(spreadsheetId, '', 'substances_legals')
+build(spreadsheetId, 'substances', 'substances', cb)
+build(spreadsheetId, 'substances_legals', 'substances_legals')
