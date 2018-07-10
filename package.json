@@ -20,9 +20,13 @@
     "titres-c-w": "onchange '**/*.js' -i -- npm run titres-c",
     "titres-g": "node ./titres/g.js",
     "titres-g-w": "onchange '**/*.js' -i -- npm run titres-g",
+    "titres-w": "node ./titres/w.js",
+    "titres-w-w": "onchange '**/*.js' -i -- npm run titres-w",
+    "titres-a": "node ./titres/a.js",
+    "titres-a-w": "onchange '**/*.js' -i -- npm run titres-a",
     "repertoire": "node ./repertoire/index.js",
     "repertoire-w": "onchange '**/*.js' -i -- npm run repertoire",
-    "build": "npm run metas && npm run substances && npm run repertoire && npm run titres-m && npm run titres-h && npm run titres-m973 && npm run titres-s && npm run titres-c && npm run titres-g"
+    "build": "npm run metas && npm run substances && npm run repertoire && npm run titres-m && npm run titres-h && npm run titres-m973 && npm run titres-s && npm run titres-c && npm run titres-g && npm run titres-a && npm run titres-w"
   },
   "author": "",
   "license": "ISC",
