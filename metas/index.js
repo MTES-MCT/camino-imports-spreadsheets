@@ -14,4 +14,6 @@ const tables = [
   'emprises'
 ]
 
-tables.forEach(name => build(spreadsheetId, name, name))
+module.exports = () => {
+  tables.forEach(name => build(spreadsheetId, name, name))
+}

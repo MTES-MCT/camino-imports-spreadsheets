@@ -9,5 +9,7 @@ const cb = json =>
     }, {})
   )
 
-build(spreadsheetId, 'substances', 'substances', cb)
-build(spreadsheetId, 'substances_legals', 'substances_legals')
+module.exports = () => {
+  build(spreadsheetId, 'substances', 'substances', cb)
+  build(spreadsheetId, 'substances_legals', 'substances_legals')
+}
