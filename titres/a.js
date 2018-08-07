@@ -1,7 +1,7 @@
-const titresSpreadsheetToJson = require('./_titres-spreadsheet-to-json');
-const spreadsheetId = '1dfzKTiUO3xAPm7IsI-Ud5PcVZDvTxFODSzoePu_aFQg';
-const type = 'a';
+const titresSpreadsheetToJson = require('./_titres-spreadsheet-to-json')
+const spreadsheetId = '1dfzKTiUO3xAPm7IsI-Ud5PcVZDvTxFODSzoePu_aFQg'
+const type = 'a'
 
 module.exports = () => {
-  titresSpreadsheetToJson(spreadsheetId, type);
-};
+  titresSpreadsheetToJson(spreadsheetId, type)
+}

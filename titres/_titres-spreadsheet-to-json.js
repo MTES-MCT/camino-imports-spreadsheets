@@ -1,12 +1,12 @@
-const spreadsheetToJson = require('../spreadsheet-to-json');
+const spreadsheetToJson = require('../spreadsheet-to-json')
 
 const titresCb = json =>
   json.map(j =>
     Object.keys(j).reduce((res, cur) => {
-      res[cur] = cur === 'references' ? JSON.parse(j[cur]) : j[cur];
-      return res;
+      res[cur] = cur === 'references' ? JSON.parse(j[cur]) : j[cur]
+      return res
     }, {})
-  );
+  )
 
 const tables = [
   { name: '', cb: titresCb },
@@ -19,7 +19,7 @@ const tables = [
   { name: '_utilisateurs', cb: null },
   { name: '_emprises', cb: null },
   { name: '_verifications', cb: null }
-];
+]
 
 module.exports = (spreadsheetId, type) => {
   tables.forEach(t =>
@@ -29,5 +29,5 @@ module.exports = (spreadsheetId, type) => {
       `titres${t.name}`,
       t.cb
     )
-  );
-};
+  )
+}
