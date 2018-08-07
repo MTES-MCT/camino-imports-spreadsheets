@@ -26,7 +26,7 @@
     "titres-s-w": "onchange '**/*.js' -i -- npm run titres-s",
     "titres-w": "node ./titres/w-run.js",
     "titres-w-w": "onchange '**/*.js' -i -- npm run titres-w",
-    "build": "npm run metas && npm run substances && npm run repertoire && npm run titres-m && npm run titres-h && npm run titres-m973 && npm run titres-s && npm run titres-c && npm run titres-g && npm run titres-a && npm run titres-w"
+    "import": "npm run metas && npm run substances && npm run repertoire && npm run titres-m && npm run titres-h && npm run titres-m973 && npm run titres-s && npm run titres-c && npm run titres-g && npm run titres-a && npm run titres-w"
   },
   "author": "",
   "license": "ISC",

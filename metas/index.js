@@ -1,4 +1,4 @@
-const spreadsheetToJson = require('../spreadsheetToJson');
+const spreadsheetToJson = require('../spreadsheet-to-json');
 const spreadsheetId = '1tcmn9UVF715FESbtsE1qdrZly_1yzzodWdgKwQsztEU';
 
 const tables = [
