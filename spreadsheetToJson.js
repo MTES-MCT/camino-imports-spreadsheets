@@ -13,8 +13,12 @@ module.exports = (spreadsheetId, fileName, worksheet, cb) => {
       if (cb) {
         json = cb(json)
       }
+
       const fileContent = JSON.stringify(json, null, 2)
-      const filePath = path.join(__dirname, `exports/${fileName}.json`)
+      const filePath = path.join(
+        __dirname,
+        `exports/${fileName.replace(/_/g, '-')}.json`
+      )
 
       fileCreate(filePath, fileContent)
     })
