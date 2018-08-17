@@ -13,6 +13,8 @@ const tables = [
   { name: '_demarches', cb: null },
   { name: '_etapes', cb: null },
   { name: '_points', cb: null },
+  { name: '_points_references', cb: null },
+  { name: '_documents', cb: null },
   { name: '_substances', cb: null },
   { name: '_titulaires', cb: null },
   { name: '_amodiataires', cb: null },

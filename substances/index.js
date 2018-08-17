@@ -12,4 +12,9 @@ const cb = json =>
 module.exports = () => {
   spreadsheetToJson(spreadsheetId, 'substances', 'substances', cb)
   spreadsheetToJson(spreadsheetId, 'substances_legals', 'substances_legals')
+  spreadsheetToJson(
+    spreadsheetId,
+    'substances_legals_codes',
+    'substances_legals_codes'
+  )
 }

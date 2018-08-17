@@ -4,13 +4,16 @@ const spreadsheetId = '1tcmn9UVF715FESbtsE1qdrZly_1yzzodWdgKwQsztEU'
 const tables = [
   'domaines',
   'types',
-  'domaines_types',
+  'domaines__types',
   'statuts',
   'demarches',
   'demarches_statuts',
+  'demarches__types',
+  'demarches__demarches_statuts',
   'etapes',
   'etapes_statuts',
-  'demarches_etapes',
+  'etapes__etapes_statuts',
+  'demarches__etapes',
   'emprises'
 ]
 
